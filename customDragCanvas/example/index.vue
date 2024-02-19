@@ -1,8 +1,8 @@
 <script setup>
-import customDragCanvas from "@/components/customDragCanvas/index.vue" // 组件地址
+import customDragCanvas from "../index.vue" // 组件地址
 
 const customDragCanvasObj = {
-    url: "http://code.scentralit.com:8085/img/79/4/1/1_Trajectory_.png",
+    url: "", // 图片地址
     id: "lalala",
     copyId: "lalalaCopy"
 }

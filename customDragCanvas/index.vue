@@ -255,9 +255,9 @@ function changeCanvas(type) {
                 @mousemove="readColor"
                 @mousewheel="scrollCanvas"></canvas>
         <div class="customDragCanvas-index-icon">
-            <img src="@/assets/images/reduction.png" @click="changeCanvas(1)">
-            <img src="@/assets/images/amplify.png" @click="changeCanvas(2)">
-            <img src="@/assets/images/reduce.png" @click="changeCanvas(3)">
+            <img src="./images/reduction.png" @click="changeCanvas(1)">
+            <img src="./images/amplify.png" @click="changeCanvas(2)">
+            <img src="./images/reduce.png" @click="changeCanvas(3)">
         </div>
     </div>
 </template>
